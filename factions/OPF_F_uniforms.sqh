@@ -1,0 +1,58 @@
+// RUS - Army (Flora)
+// Author: Cole
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"U_C_man_sport_1_F", {__ICE_gear_allRoles}},
+	{"rhsgref_uniform_tigerstripe", {__ICE_gear_SL}},
+	{"U_C_Man_casual_6_F", {__ICE_gear_HeavyAT}},
+	{"U_C_Man_casual_4_F", {__ICE_gear_AA}},
+	{"U_O_V_Soldier_Viper_F", {__ICE_gear_Diver}},
+	{"U_I_C_Soldier_Para_4_F", {__ICE_gear_Grenadier}},
+	
+	// Sniper
+	{"U_O_FullGhillie_ard", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_lsh", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_sard", {__ICE_gear_Sniper}},
+		
+	// Pilot
+	{"U_B_survival_uniform", {__ICE_gear_Pilot}},
+
+// VESTS
+	
+	// Infantry
+	{"V_RebreatherIR", {__ICE_gear_allRoles}},
+	{"V_TacChestrig_cbr_F", {__ICE_gear_Rifleman, __ICE_gear_infantryRoles}},
+	{"V_HarnessO_ghex_F", {__ICE_gear_Medic, __ICE_gear_CombatEngineer}},
+	{"V_HarnessOGL_ghex_F", {__ICE_gear_Grenadier}},
+	{"V_TacVest_camo", {__ICE_gear_SL}},
+	{"V_BandollierB_rgr", {__ICE_gear_Sniper, __ICE_gear_Crewman}},
+	{"V_HarnessO_ghex_F", {__ICE_gear_Diver}},
+		
+	// Pilot
+	{"rhs_vydra_3m", {__ICE_gear_Pilot}},
+
+// HELMETS
+	
+	// Infantry
+	{"H_Bandanna_surfer_grn", {__ICE_gear_Inf}},
+	{"rhs_Booniehat_flora", {__ICE_gear_Marksman, __ICE_gear_Sniper}},
+	{"H_Bandanna_camo", {__ICE_gear_SL}},
+	{"H_MilCap_gry", {__ICE_gear_Grenadier}},
+	{"H_HelmetO_ViperSP_ghex_F", {__ICE_gear_Diver}},
+	
+	// Crewman
+	{"H_Cap_headphones", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhs_gssh18", {__ICE_gear_Pilot}},
+	
+// GLASSES
+	
+	{"G_Spectacles_Tinted", {__ICE_gear_allRoles}},
+	{"rhs_scarf", {__ICE_gear_allRoles}},
+	{"G_Aviator", {__ICE_gear_Pilot}}
+};
